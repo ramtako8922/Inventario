@@ -3,7 +3,7 @@
     private $host=''; //nombre del servidor
     private $db=''; // nombre db
     private $user=''; //usuario db
-    private $password=''// password db;
+    private $password='';// password db;
     private $charset = 'utf8mb4';
     private $pdo;
  
