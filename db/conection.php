@@ -1,9 +1,9 @@
 <?php
  class Conection{
-    private $host='localhost';
-    private $db='inventario';
-    private $user='root';
-    private $password='123456';
+    private $host=''; //nombre del servidor
+    private $db=''; // nombre db
+    private $user=''; //usuario db
+    private $password=''// password db;
     private $charset = 'utf8mb4';
     private $pdo;
  
