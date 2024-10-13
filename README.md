@@ -8,7 +8,7 @@ En el archico Conection.php coloque las credenciales de su base de datos dentro 
  Si decide usar XAMPP debe alojar la carpeta del proyecto en la ruta capartetaraiz/htdocs ejemplo: XAMPP/htdocs/nombreproyecto.
 
 ## pruebas
-Para realizar las pruebas del proyecto puede usar un cliente como [Postman](https://www.postman.com/downloads/), al tenernelo insralado puede probar realizando una petición con los siguentes parámetros
+Para realizar las pruebas del proyecto puede usar un cliente como [Postman](https://www.postman.com/downloads/), al tenerlo instalado puede probar realizando una petición con los siguentes parámetros
 
 - Tipo de petición: POST 
 - URL ejemplo : http://localhost/inventario/actualizar_stock.php
