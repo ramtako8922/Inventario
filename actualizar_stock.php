@@ -20,7 +20,7 @@ try {
 
     // Instanciar la clase Producto y actualizar el stock
     $producto = new Producto();
-    $resultado = $producto->actualizarStock($productoId, $cantidad);
+    $resultado = $producto->actualizarStock($productoId, $stock);
 
     // Enviar la respuesta en formato JSON
     echo json_encode($resultado);
