@@ -1,5 +1,5 @@
 
-# Scrpt para actualizar producto
+# Script para actualizar producto
 
 ## Instrucciones de uso
 En el archico Conection.php coloque las credenciales de su base de datos dentro de las '' para que el código pueda ejecutar la funcion de actualizar
