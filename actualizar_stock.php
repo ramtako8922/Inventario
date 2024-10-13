@@ -1,6 +1,6 @@
 <?php
 
-require '/data/Producto.php';
+require 'data/Producto.php';
 
 // Configurar la respuesta como JSON
 header('Content-Type: application/json');
@@ -10,13 +10,13 @@ try {
     $input = json_decode(file_get_contents('php://input'), true);
 
     // Validar que los parámetros sean correctos
-    if (!isset($input['producto_id']) || !isset($input['cantidad'])) {
+    if (!isset($input['producto_id']) || !isset($input['stock'])) {
         throw new Exception('Faltan parámetros necesarios');
     }
 
     // Obtener parámetros
     $productoId = $input['producto_id'];
-    $cantidad = $input['cantidad'];
+    $stock = $input['stock'];
 
     // Instanciar la clase Producto y actualizar el stock
     $producto = new Producto();

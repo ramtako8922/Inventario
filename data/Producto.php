@@ -1,5 +1,5 @@
 <?php
-require '/db/conection.php';
+require 'db/Conection.php';
 
  class Producto {
  private $db;
@@ -15,7 +15,7 @@ require '/db/conection.php';
             $stmt = $this->db->prepare($sql);
 
             // Asignar valores a los parámetros de entrada a la DB
-            $stmt->bindParam(':cantidad', $stock, PDO::PARAM_INT);
+            $stmt->bindParam(':stock', $stock, PDO::PARAM_INT);
             $stmt->bindParam(':productoId', $productoId, PDO::PARAM_INT);
 
             // Ejecución de la consulta
